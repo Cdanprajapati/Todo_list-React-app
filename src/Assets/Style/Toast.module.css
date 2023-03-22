@@ -1,0 +1,85 @@
+
+.Body{
+    width: 20%;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 75%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(232, 114, 85));
+    z-index: 1000;
+  }
+
+  .Toast {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 200px) and (max-width: 600px) {
+    .Body{
+      width: fit-content;
+      position: absolute;
+      overflow: hidden;
+      margin: auto;
+      height: 15%;
+      z-index: 1000;
+    }
+  }
+  
+  .Cross {
+    cursor: pointer;
+    color: black;
+    font-size: 14px;
+  }
+  
+  .EyeIcons {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 235px
+  }
+  
+  .text-size{
+    font-size: 15px;
+    color: tomato;
+  }
+  .placeholder{
+    font-size: 12px;
+    height: 22px;
+  }
+  
+  .btn {
+    height: 25px;
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+    background-color: tomato;
+    text-align: center;
+    transition: 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: tomato;
+    color: white;
+  }
+  
+  .password{
+    text-decoration: none;
+    font-size: 15px;
+    color: tomato;
+  }
+  
+  .account-text{
+    font-size: 12px;
+  }
+  
+  .anchor-tag{
+    text-decoration: none;
+    align-items: center;
+    font-size: 12px;
+    color: tomato;
+    margin-left: 40%;
+    margin-top: -10px;
+    cursor: pointer;
+  }
+  
+  .bottom-p{
+    font-size: 12px;
+  }

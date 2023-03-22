@@ -1,0 +1,93 @@
+
+.Body{
+    width: 300px;
+    margin: auto;
+    z-index: 1200;
+    height: 100%;
+  }
+
+  .Err-text{
+    font-size: 13px;
+    color: red;
+  }
+
+  .alert{
+    font-size: 12px;
+    color: tomato;
+    margin: auto;
+  }
+
+  .warning{
+    color: red;
+    font-size: 13px;
+  }
+
+  .EyeIcons {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 235px
+  }
+
+  .checkbox{
+    font-size: 13px;
+  }
+
+  .password{
+    text-decoration: none;
+    font-size: 11px;
+    color: tomato;
+    margin-left: 35%;
+  }
+
+  .Terms{
+    text-decoration: none;
+    color: tomato;
+  }
+
+  .Condition{
+    text-decoration: none;
+    color: tomato;
+  }
+
+  .text-size{
+    font-size: 13px;
+  }
+  .placeholder{
+    font-size: 12px;
+    height: 22px;
+  }
+  .placeholder::placeholder{
+    color: red ;
+  }
+  .btn {
+    height: 25px;
+    font-size: 12px;
+    color: white;
+    background-color: tomato;
+    text-align: center;
+    transition: 0.2s;
+  }
+  .btn:hover {
+    background-color: tomato;
+    color: white;
+  }
+
+  .account-text{
+    font-size: 12px;
+  }
+
+  .anchorTag{
+    text-decoration: none;
+    margin-left: 40%;
+    color: tomato;
+  }
+
+  .Xcross{
+    cursor: pointer;
+    color: tomato;
+  }
+
+  .matchpassword{
+    font-size: 13px;
+    color: tomato;
+  }
