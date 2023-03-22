@@ -1,0 +1,61 @@
+.card{
+    height: 80px;
+    width: 120px;
+    position: absolute;
+    overflow: hidden;
+    margin-left: -60px;
+    z-index: 3;
+}
+
+
+@media (min-width: 200px) and (max-width: 300px) {
+    .card{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        overflow: hidden;
+        /* float: right; */
+        margin-left: 50%;
+        z-index: 3;
+    }
+  }
+
+
+@media (min-width: 300px) and (max-width: 760px) {
+    .card{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        overflow: hidden;
+        /* float: right; */
+        margin-left: 65%;
+        z-index: 3;
+    }
+  }
+
+  @media (min-width: 761px) and (max-width: 1380px) {
+    .card{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        overflow: hidden;
+        z-index: 3;
+    }
+  }
+
+.Edit{
+    background-color: white;
+    cursor: pointer;
+}
+.Edit:hover{
+    background-color: rgb(229, 229, 229);
+}
+
+.Delete{
+    background-color: white;
+    cursor: pointer;
+}
+
+.Delete:hover{
+    background-color: rgb(228, 228, 228);
+}

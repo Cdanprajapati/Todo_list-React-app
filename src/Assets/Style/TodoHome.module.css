@@ -1,0 +1,73 @@
+.Touch {
+  background-color: #e0dddd;
+ width: 50%; 
+ padding: 0px;
+ margin: 0px;
+} 
+
+.HideTask{
+  font-size: 14px;
+  width: max-content;
+}
+
+
+.dot-1 {
+  background-color: #78c4ed;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+}
+
+
+.dot-2 {
+  background-color: rgb(250, 172, 216);
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: inline-block;
+  border: none;
+}
+
+
+.dot-3 {
+  background-color: #86edc9;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: inline-block;
+  border: none;
+}
+
+.dot-4 {
+  background-color: #bbb;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+}
+
+.loginBtn{
+  margin-top: 40%;
+  width: 120px;
+  color: white;
+  background-color: rgb(251, 108, 108);
+  transition: 0.3s;
+}
+
+.loginBtn:hover {
+ background-color: rgb(244, 76, 76);
+ color: white;
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+  .loginBtn{
+    margin-top: 10%;
+  }
+}

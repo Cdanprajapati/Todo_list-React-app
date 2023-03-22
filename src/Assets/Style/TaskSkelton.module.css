@@ -1,0 +1,50 @@
+.bg{
+  background: linear-gradient(160deg, #ffde91 70%, #fcf07f 20%);
+}
+
+.dot-work {
+  background-color: #78c4ed;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+}
+
+
+.dot-study {
+  background-color: rgb(250, 172, 216);
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: inline-block;
+  border: none;
+}
+
+
+.dot-Enjoyment {
+  background-color: #86edc9;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: inline-block;
+  border: none;
+}
+
+.dot-family {
+  background-color: #bbb;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+}
+
+  .card{
+    background-color: #edd078;
+  }
+  

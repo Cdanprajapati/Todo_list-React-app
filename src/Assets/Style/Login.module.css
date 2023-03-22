@@ -1,0 +1,76 @@
+
+.Body{
+  width: 300px;
+  margin: auto;
+  overflow: hidden;
+  z-index: 1000;
+  /* height: 100%; */
+}
+
+.Cross {
+  cursor: pointer;
+  color: tomato;
+}
+
+.EyeIcons {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 235px
+}
+
+.text-size{
+  font-size: 13px;
+}
+.placeholder{
+  font-size: 12px;
+  height: 22px;
+}
+.placeholder::placeholder {
+  color: red;
+}
+
+.alert{
+  font-size: 12px;
+  color: tomato;
+  margin: auto;
+}
+
+.btn {
+  height: 25px;
+  font-size: 12px;
+  cursor: pointer;
+  color: white;
+  background-color: tomato;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: tomato;
+  color: white;
+}
+
+.password{
+  text-decoration: none;
+  font-size: 11px;
+  color: tomato;
+  margin-left: 35%;
+}
+
+.account-text{
+  font-size: 12px;
+}
+
+.anchor-tag{
+  text-decoration: none;
+  align-items: center;
+  font-size: 12px;
+  color: tomato;
+  margin-left: 40%;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.bottom-p{
+  font-size: 12px;
+}
